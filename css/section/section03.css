@@ -1,0 +1,83 @@
+.Business02 .container {
+  gap: 50px;
+  margin: 0 auto 50px auto;
+}
+
+.Business02 .container>div {
+  flex: 1;
+}
+
+.Business02 .left img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.Business02 .right {
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid var(--dc);
+  padding: 40px 0 0 0;
+}
+
+.Business02 .right h3 {
+  margin: 0 0 20px 0;
+  font-size: 31px;
+  font-weight: 700;
+}
+
+.Business02 .right p {
+  margin: 0 0 30px 0;
+  font-size: 15px;
+}
+
+.Business02 .right .bottom {
+  margin: auto 0 0 0;
+  border-top: 1px solid var(--gc);
+  padding: 20px 20px 40px 20px;
+  background: var(--lc);
+  line-height: 1.45;
+}
+
+.Business02 .inner {
+  padding: 0 15px;
+}
+
+.Business02 .inner h3 {
+  margin-bottom: 21px;
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.Business02 .inner h3::before {
+  content: '/';
+  display: inline-block;
+  margin: 0 10px 0 0;
+  font-size: 18px;
+  font-weight: 900;
+  color: var(--mc);
+  transform: translateY(-10px) rotate(20deg);
+}
+
+.Business02 .inner ul {
+  padding: 20px 0;
+  border-top: 1px solid var(--dc);
+  border-bottom: 1px solid var(--dc);
+}
+
+.Business02 .inner ul>li {
+  float: left;
+  padding: 5px 0;
+  width: 50%;
+}
+
+.Business02 .inner ul>li::before {
+  content: attr(data-num);
+  display: inline-block;
+  margin: 0 15px 0 0;
+  border-radius: 13px;
+  padding: 5px;
+  color: var(--lc);
+  background: var(--dc);
+  font-style: italic;
+}
