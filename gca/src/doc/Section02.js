@@ -1,5 +1,3 @@
-import '../css/section02.css';
-
 const Section02 = () => {
   return (
     <section className="Business">

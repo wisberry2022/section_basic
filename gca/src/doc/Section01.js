@@ -1,6 +1,3 @@
-import '../css/basic.css';
-import '../css/section01.css';
-
 const Section01 = () => {
   return (
     <section className="About basic_section">
@@ -38,7 +35,7 @@ const Section01 = () => {
           <img src="./image/slide_01.jpg" alt="" />
         </figure>
       </div>
-      <div className="inner">
+      <div className="inner pd15">
         <h3>주요현황</h3>
         <table>
           <tbody>
